@@ -1,7 +1,7 @@
 //your JS code here. If required.
 const div = document.getElementById("sizeInfo");
-
+const heading = div.firstElementChild;
 window.onresize = function(){
-	div.innerHTML = `<h1>Width: ${window.innerWidth} and Height: ${window.innerHeight}</h1>`;
+	heading.innerHTML = `<h1>Width: ${window.innerWidth} and Height: ${window.innerHeight}</h1`;
 }
 
